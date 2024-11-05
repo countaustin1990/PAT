@@ -1,0 +1,46 @@
+.scrollbar {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding: 10px;
+  gap: 10px;
+}
+
+.scroll-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll-item:hover img {
+  transform: scale(1.1); /* Magnify the image on hover */
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll-item img {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.scroll-item h3 {
+  text-align: center;
+  color: #f8f9fa;
+}
+
+.scroll-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e53e3e;
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.container {
+  width: 100%;
+}

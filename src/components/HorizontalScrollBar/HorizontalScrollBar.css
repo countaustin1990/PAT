@@ -1,0 +1,20 @@
+.scrollbar {
+  display: flex;
+  white-space: nowrap;
+  will-change: scroll-position; /* Helps the browser optimize scrolling */
+  overflow-y: hidden;
+ /* user-select: none;  Prevent text selection during scroll */
+  /*-webkit-user-select: none;  Safari support */
+}
+
+.scroll-item {
+  flex-shrink: 0;
+  transition: transform 0.3s ease; /* Smooth transitions for any hover effects */
+  min-width: 400px;
+}
+
+@media (max-width: 768px) {
+  .scroll-item {
+    min-width: 200px; /* Smaller item size for better fit on smaller screens */
+  }
+}
