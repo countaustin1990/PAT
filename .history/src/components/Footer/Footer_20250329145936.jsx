@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-//import { FaYoutube, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaYoutube, FaTwitter, FaInstagram } from "react-icons/fa";
 
 
 
@@ -77,7 +77,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {/*<FaInstagram size={18} />*/}
+              <FaInstagram size={18} />
               <span className="sr-only">Instagram</span>
             </a>
             <a
@@ -86,7 +86,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {/*<FaYoutube size={18} />*/}
+              <FaYoutube size={18} />
               <span className="sr-only">YouTube</span>
             </a>
             <a
@@ -95,7 +95,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {/*<FaTwitter size={18} />*/}
+              <FaTwitter size={18} />
               <span className="sr-only">Twitter</span>
             </a>
           </div>

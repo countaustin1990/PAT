@@ -12,11 +12,9 @@
     "predeploy": "npm run dev",
     "deploy": "gh-pages -d dev",
     "start": "react-scripts start",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts dev"
   },
   "dependencies": {
-    "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.1.5",
     "@react-google-maps/api": "^2.19.3",
     "axios": "^1.7.7",
